@@ -16,7 +16,7 @@ function getIt(){
 function frameIt(){
   $('img').on('load', function(){
     $(this).addClass('tasty');
-    $('#tasty').css({ 'border': 'px solid red' });
+    $('#tasty').css({ 'border': '1px solid red' });
   });
 }
 
